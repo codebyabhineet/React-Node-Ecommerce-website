@@ -1,0 +1,90 @@
+// -- External Components --
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-svg-core/styles.css";
+
+// Page Defaults
+body {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+// -- Typography --
+.text-big-muted {
+  @extend .text-muted;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+header {
+  font-weight: 400;
+}
+
+.parallax {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.paralsec {
+  background-image: url("/cafe-people.jpg");
+}
+
+.nav-link {
+  font-size: 0.95rem;
+}
+
+#basic-nav-dropdown {
+  font-size: 0.95rem;
+}
+
+#seeMoreLink {
+  color: #607d8b;
+}
+
+#seeMoreLink:hover {
+  color: black;
+  font-weight: 400;
+}
+.dropdown-menu {
+  padding: 1em;
+}
+
+.dropdown-item:hover {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+.dropdown-item a:hover {
+  color: black;
+}
+
+.dropdown-item {
+  height: 2em;
+  padding-left: 0em;
+}
+
+.dropdown-header {
+  font-weight: 600;
+  padding-left: 0em;
+}
+
+@media only screen and (min-width: 600px) {
+  .eventsNav {
+    width: 22em;
+    padding-bottom: 1em;
+  }
+  .abhi{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+// TopBar
+.navbar{
+  position: sticky;
+}
+
